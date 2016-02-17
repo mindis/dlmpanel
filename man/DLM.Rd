@@ -84,7 +84,9 @@ Row is cross section and column is variables in dum vector. Only put 1 or 0 to s
 \item{end.date.m}{c character for the end date of post-modelling contribution calculation; format is YYYY-MM-DD.}
 }
 \value{
-If is.output is TRUE, this function would output result files in work directory. If is.graph is TRUE, it would output charts in R.
+a list of modeling result. It contains the following components:
+   stat: Diagnostic Statistics
+   coef: a coefficient table if possible
 }
 \description{
 A function to run DLM and post-modelling calculation on panel data for Marketing-Mix modelling

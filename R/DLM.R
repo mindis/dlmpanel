@@ -43,7 +43,9 @@
 #' @param optim.ub a numeric for the upper bond of optimization. Defualt is Inf.   
 #'    
 #'    
-#' @return If is.output is TRUE, this function would output result files in work directory. If is.graph is TRUE, it would output charts in R.
+#' @return a list of modeling result. It contains the following components:
+#'    stat: Diagnostic Statistics
+#'    coef: a coefficient table if possible
 #'
 #' @export
 
