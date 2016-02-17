@@ -1,0 +1,13 @@
+Package: dlmpannel
+Title: A package for Dynamic Linear Model on panel data in Marketing-Mix
+    Modelling
+Version: 0.1
+Authors@R: person("Xin", "Zhou", email = "xinzhou1023@gmail.com", role = c("aut", "cre"))
+Description: This package enable a Marketing-Mix Modelling method by using Dynamic Linear Model, which is a State Space Model method that can identify not only short-term media effects, but also long-term media effects driven by brand campaign. 
+Depends:
+    R (>= 3.2.2),data.table,dlm,reshape2,doSNOW
+License: What license is it under?
+LazyData: true
+Imports:
+    data.table,dlm,reshape2,doSNOW
+RoxygenNote: 5.0.1.9000
