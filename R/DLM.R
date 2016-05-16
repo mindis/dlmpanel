@@ -201,7 +201,7 @@ DLM=function(
   x=vector("list",length(market))
   
   for (i in 1:length(market)){ #i=1
-    data.dma[[i]]=data[data$market==market[i],]
+    data.dma[[i]]=data[data[group]==market[i],]
     y[[i]]=data.dma[[i]][,dep]
     ymean[[i]]=data.dma[[i]][,mean]
     yreal[[i]]=data.dma[[i]][,actual]
