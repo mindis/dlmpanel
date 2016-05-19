@@ -11,7 +11,7 @@ install_github('xinzhou1023/dlmpanel')
 ```
 ## Example
 ```coffee
-library(dlmpannel)
+library(dlmpanel)
 
 # load sample data
 data(sample_data)
