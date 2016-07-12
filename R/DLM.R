@@ -514,6 +514,6 @@ DLM=function(
     write.csv(diagnose,paste(model.name,"_DLM_dx.csv",sep=""),row.names=F) # Residual diagnose 
     #save.image(paste(model.name,"_DLM.RData",sep=""))
   }
-  if (length(varlist!=0)) return(list(stat=diagnose,coef=coef.table.output)) else
-    return(list(stat=diagnose))
+  if (length(varlist!=0)) return(list(stat=diagnose,coef=coef.table.output,decomp=decomp.na)) else
+    return(list(stat=diagnose,decomp=decomp.na))
 }
