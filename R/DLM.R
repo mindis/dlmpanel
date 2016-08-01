@@ -168,7 +168,7 @@ DLM=function(
     y[[i]]=data.dma[[i]][,dep]
     ymean[[i]]=data.dma[[i]][,mean]
     yreal[[i]]=data.dma[[i]][,actual]
-    if(length(varlist)!=0) x[[i]]=data.frame(data.table(data.dma[[i]])[,varlist,with=F]))
+    if(length(varlist)!=0) x[[i]]=data.frame(data.table(data.dma[[i]])[,varlist,with=F])
   }
   date=data.dma[[1]]$date
   coef.check.pre=matrix(1,nc=length(market),nr=length(varlist),dimnames=list(varlist,market))
